@@ -1,30 +1,29 @@
-body{
-	width: 100%;
+body {
+  width: 100%;
   margin: 0 auto;
   background-color: #ddd;
   font-size: 14px;
 }
 
-header{
-	background-color: #00695C;
-	height: 101px;
+header {
+  background-color: #00695c;
+  height: 101px;
 }
-.body1{
+.body1 {
   margin: 0 auto;
   font-family: Verdana, Geneva, sans-serif;
 }
-.header1{
-
+.header1 {
 }
 .header {
-  background-color:#292c2f;
-  box-shadow:0 1px 1px #ccc;
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px #ccc;
   padding: 4px 100px;
   color: #ffffff;
   box-sizing: border-box;
-  top:100px;
-  -webkit-transition:top 0.3s;
-  transition:top 0.3s;
+  top: 100px;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
   text-align: center;
   margin: 0 auto;
   height: 115px;
@@ -35,18 +34,18 @@ header{
 /*  The header placeholder. It is displayed when the header is fixed to the top of the
   browser window, in order to prevent the content of the page from jumping up. */
 
-.header-placeholder{
+.header-placeholder {
   height: 80px;
   display: none;
 }
 
 /* Logo */
 
-.header  h1 {
+.header h1 {
   float: left;
   font-size: 35px;
   line-height: 40px;
-  margin: 32px auto
+  margin: 32px auto;
 }
 
 .header h1 span {
@@ -55,7 +54,7 @@ header{
 
 /* The navigation links */
 
-.header  h3 {
+.header h3 {
   float: right;
   font-size: 20px;
   line-height: 40px;
@@ -67,8 +66,7 @@ header{
   text-decoration: none;
 }
 
-
-.logo_box{
+.logo_box {
   margin: 0px 0px 0px 100px;
 }
 .topnav {
@@ -92,85 +90,162 @@ header{
 }
 
 .topnav .navlink.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
-.w3-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
-.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
-.w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
-.w3-button{border:none;display:inline-block;outline:0;padding:16.4px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;cursor:pointer;white-space:nowrap}
-.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{width:100%}
-.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{min-width:100%}
-.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
-.w3-button:hover{color:#000!important;background-color:#ccc!important}
-.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
-.w3-collapse{display:none}
-.w3-xlarge{font-size:24px!important}
+.w3-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+.w3-button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block;
+}
+.w3-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  white-space: normal;
+  float: none;
+}
+.w3-button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 16.4px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.w3-bar-block .w3-dropdown-hover,
+.w3-bar-block .w3-dropdown-click {
+  width: 100%;
+}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,
+.w3-bar-block .w3-dropdown-click .w3-dropdown-content {
+  min-width: 100%;
+}
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.w3-teal,
+.w3-hover-teal:hover {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+.w3-collapse {
+  display: none;
+}
+.w3-xlarge {
+  font-size: 24px !important;
+}
 
-<!-- daasf -->
-.nbody{
+/* <!-- daasf --> */
+.nbody {
   width: 100%;
   margin: 0px 100px;
 }
-.nfeedleft{
+.nfeedleft {
   float: left;
   width: 700px;
-  background-color: #606769;
+  background-color: black;
+  margin: 10px;
 }
-.holecontainer{
+.holecontainer {
   width: 615px;
   background-color: #fff;
   padding: 1px;
 }
-.nfeedright{
+.nfeedright {
   float: right;
   width: 500px;
   background-color: #606769;
 }
-.nfeedleftsearch{
+.nfeedleftsearch {
   float: left;
   width: 510px;
   background-color: #606769;
 }
-.nfeedrightsearch{
+.nfeedrightsearch {
   float: right;
   width: 620px;
   background-color: #606769;
 }
 
-.nfbody{
+.nfbody {
   background-color: #cecece;
   margin: 10px;
   padding: 10px;
 }
 
-.p_head{
-
+.p_head {
 }
-.p_head img{
+.p_head img {
   float: left;
 }
-.p_nmdate{
+.p_nmdate {
   overflow: hidden;
   padding: 0 10px;
   font-weight: bold;
   font-size: 22px;
 }
-.p_nmdate h4{
-  color: #087E0D;
+.p_nmdate h4 {
+  color: #087e0d;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-.p_nmdate h5{
+.p_nmdate h5 {
   font-size: 14px;
   font-weight: normal;
 }
-.p_body{
+.p_body {
   margin: 10px 0 0 0;
   font-size: 15px;
 }
-.p_body p{
+.p_body p {
   font-weight: bold;
 }
 .p_bodyn {
@@ -180,49 +255,49 @@ header{
   padding: 60px 20px;
   font-size: 20px;
 }
-.p_body span{
+.p_body span {
   font-weight: 200;
 }
 
-.postbox{
+.postbox {
   background-color: #eee;
   margin: 10px;
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
 }
-.postbox span{
+.postbox span {
   font-size: 14px;
   font-weight: normal;
 }
-.postbox h3{
+.postbox h3 {
   text-align: center;
   padding: 20px 0;
   font-size: 25px;
 }
-.c_ptime{
+.c_ptime {
   text-decoration: none;
   color: #757575;
 }
-.c_ptime:hover{
+.c_ptime:hover {
   text-decoration: underline;
 }
 /* settring */
 .settingsleftcontent {
-    width: 300px;
-    color: #7C7979;
-    line-height: 1.2;
-    padding: 0;
-    text-align: justify;
-    background-color: #FFFFFF;
-    -webkit-box-shadow: 0 2px 1px 0 #B5B2B2;
-    box-shadow: 0 2px 1px 0 #B5B2B2;
-    border-radius: 4px;
+  width: 300px;
+  color: #7c7979;
+  line-height: 1.2;
+  padding: 0;
+  text-align: justify;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 1px 0 #b5b2b2;
+  box-shadow: 0 2px 1px 0 #b5b2b2;
+  border-radius: 4px;
 }
 .settingsleftcontent h2 {
   text-align: left;
   font-size: 16px;
-  color: #0B810B;
+  color: #0b810b;
 }
 .settingsleftcontent ul {
   list-style: none;
@@ -233,23 +308,23 @@ header{
   text-align: center;
 }
 .settingsleftcontent ul li a {
-    clear: both;
-    cursor: pointer;
-    display: block;
-    font-size: 15px;
-    font-weight: normal;
-    float: none;
-    line-height: 18px;
-    margin: 0;
-    padding: 10px 20px;
-    text-shadow: none;
-    white-space: nowrap;
-    color: #0C2860;
-    text-decoration: none;
-    text-align: center;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  float: none;
+  line-height: 18px;
+  margin: 0;
+  padding: 10px 20px;
+  text-shadow: none;
+  white-space: nowrap;
+  color: #0c2860;
+  text-decoration: none;
+  text-align: center;
 }
 .settingsleftcontent ul li:hover {
-  background-color: #4CAF5099;
+  background-color: #4caf5099;
   color: #fff;
   border-radius: 4px;
 }
@@ -261,7 +336,7 @@ header{
   margin: 0px 0 0 0;
   padding: 0px 0px 20px 0px;
   font-size: 40px;
-  color: #169E8F;
+  color: #169e8f;
   font-weight: bold;
   text-align: center;
 }
@@ -273,27 +348,27 @@ header{
   padding: 14px;
   line-height: 25px;
   border-radius: 4px;
-  border: 1px solid #169E8F;
-  color: #169E8F;
+  border: 1px solid #169e8f;
+  color: #169e8f;
   margin-left: 0;
   width: 270px;
   height: 20px;
   background-color: transparent;
 }
 .uisignupbutton {
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 13px;
-    padding: 14px 0;
-    width: 300px;
-    text-align: center;
-    text-decoration: none;
-    border-width: 2px;
-    border: 1px solid #169E8F;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 13px;
+  padding: 14px 0;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 2px;
+  border: 1px solid #169e8f;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .uisignupbutton:hover {
   background-color: #24bfae;
@@ -305,51 +380,55 @@ header{
   font-size: 16px;
 }
 .succReg {
-    padding: 20px;
-    margin: 150px auto;
-    line-height: 1.5;
-    width: 930px;
+  padding: 20px;
+  margin: 150px auto;
+  line-height: 1.5;
+  width: 930px;
 }
 .succReg p {
   font-size: 40px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif; 
-  color: #0B810B;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0b810b;
   text-align: center;
 }
 .container {
-text-align: center;
+  text-align: center;
 }
 .home-prodlist-img img div {
-    font-size: 20px;
+  font-size: 20px;
 }
 .home-prodlist-imgi {
-    height: 200px; 
-    width: 225px; 
-    padding: 2px;
-    border: 1px solid #847b7b;
-    border-radius: 8px;
+  height: 200px;
+  width: 225px;
+  padding: 2px;
+  border: 1px solid #847b7b;
+  border-radius: 8px;
 }
 
 /* subject list */
-.divp35{
+.divp35 {
   width: 35%;
   float: left;
 }
 .divp50 {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
-.itemrow{
-  margin: 0 auto; width: 100%;
+.itemrow {
+  margin: 0 auto;
+  width: 100%;
   padding-bottom: 9px;
   overflow: hidden;
 }
-.itemrowdiv1{
-  width: 19%; float: left;font-weight: bold;
+.itemrowdiv1 {
+  width: 19%;
+  float: left;
+  font-weight: bold;
 }
-.itemrowdiv2{
-  width: 80%; float: left;
+.itemrowdiv2 {
+  width: 80%;
+  float: left;
 }
 .sub_button {
   font-size: 14px;
@@ -359,12 +438,12 @@ text-align: center;
   display: inline-block;
   float: right;
   text-decoration: none;
-  height: 35px; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-  border-radius: 5px; 
-  background-color: #70b372; 
-  transition: all 0.1s linear 0s; 
+  height: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #70b372;
+  transition: all 0.1s linear 0s;
   top: 0px;
   position: relative;
   border: none;
@@ -372,19 +451,18 @@ text-align: center;
 }
 /* This class is added on scroll */
 .topnavfixed {
-  position: fixed; 
-  top: 0;  
+  position: fixed;
+  top: 0;
   z-index: 1;
   width: 100%;
 }
 .nfeedleftsearchfixed {
   position: fixed;
-  top: -140px; 
+  top: -140px;
 }
 
 .nbodymargintop {
   margin-bottom: 50px;
-
 }
 
 .nbodyrightmargintop {
